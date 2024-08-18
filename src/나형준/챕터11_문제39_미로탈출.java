@@ -31,7 +31,7 @@ public class 챕터11_문제39_미로탈출 {
 				if(next.row<0 || next.row>=n || next.col<0 || next.col>=m) continue; // 범위 벗어나면 취소 
 				if(maps[next.row].charAt(next.col)=='X') continue; // 다음 노드가 벽인 경우 
 				
-				 
+			
 			}
 		}
 		return count;
