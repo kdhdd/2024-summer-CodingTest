@@ -7,7 +7,7 @@ public class Book38 {
     public static void main(String[] args) {
         
         int n = 3;
-        int[][] computers = {{1, 1, 0}, {1, 1, 1}, {0, 1, 1}};
+        int[][] computers = {{1, 1, 0}, {1, 1, 0}, {0, 0, 1}};
         
         System.out.println(solution(n, computers));
     }
